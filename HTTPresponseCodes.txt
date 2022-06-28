@@ -1,0 +1,23 @@
+200	OK  	                Zawartość żądanego dokumentu 
+
+201	Created 	            Utworzono – wysłany dokument został zapisany na serwerze
+
+400	Bad                     Request	Nieprawidłowe zapytanie
+
+401	Unauthorized	        Nieautoryzowany dostęp – żądanie zasobu, który wymaga uwierzytelnienia
+
+403	Forbidden	            Zabroniony – serwer zrozumiał zapytanie, lecz konfiguracja bezpieczeństwa zabrania mu zwrócić żądany zasób
+
+404	Not Found	            Nie znaleziono 
+
+500	Internal Server Error	Wewnętrzny błąd serwera – serwer napotkał niespodziewane trudności, które uniemożliwiły zrealizowanie żądania
+
+501	Not Implemented	        Nie zaimplementowano – serwer nie dysponuje funkcjonalnością wymaganą w zapytaniu
+
+502	Bad Gateway	            Błąd bramy–serwer spełniający rolę bramy lub pośrednika otrzymał niepoprawną odpowiedź od serwera nadrzędnego i 
+                                nie jest w stanie zrealizować żądania klienta
+
+503	Service Unavailable	    Usługa niedostępna – serwer nie jest w stanie w danej chwili zrealizować zapytania klienta ze względu na przeciążenie
+
+504	Gateway Timeout	        Przekroczony czas bramy – serwer – spełniający rolę bramy lub pośrednika – nie otrzymał w ustalonym czasie odpowiedzi 
+                            od wskazanego serwera HTTP, FTP, LDAP itp. lub serwer DNS jest potrzebny do obsłużenia zapytania
